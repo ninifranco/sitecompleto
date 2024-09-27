@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+:root{
+    --fonte1:Verdana,Geneva,Tahoma,sans-serif;
+    --fonte2: "Fredoka", sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 192, 241);
+    margin: 0px;
+}
+img{
+    width:500px;
+    height:500px;
+   display: flex;
+   margin: auto;
+   margin-top: -10px;
+}
+h1{
+    font-family: var(--fonte2);
+    text-align: center;
+    
+
+}
+h2{
+    margin: 5%;
+    font-family:var() ;
+    text-align: center;
+    
+}
+h3{
+    font-family:var(--fonte2) ;
+    background-color: deeppink;
+    text-align: center;
+}
+    
+nav{
+    background-color: rgb(248, 116, 175);
+    padding: 3px;
+    box-shadow: 5px 5px 5px 5px rgb(235, 106, 211);
+    border-radius: 3px;
+    }
+
+nav > a{
+    text-decoration:none;
+    color:aliceblue;
+    font-weight: bold;
+    margin: 180px;
+}
+
+
+nav > a:hover{
+    /*text-decoration: underline;*/
+    background-color: deeppink;
+}
+
+
+main{
+    background-color: deeppink;
+    padding: 10px;
+    margin:10px;
+    border-radius: 30px;
+}
+article{
+    background-color: rgb(246, 160, 221);
+    border-radius: 5px;
+    padding: 15px;
+}
+article > aside{
+    background-color: cyan;
+}
+label{
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+.contato{
+    color: deeppink;
+    font-size: 30px;
+
+}
+
+.form{
+    max-width: 600px;
+    height: 400px;
+    margin: 50px auto; /*espaço adicionado no topo*/
+    padding: 20px;
+    background-color: rgb(255, 169, 225);
+    box-shadow: 0 0 10px black;
+    border-radius: 8px;
+
+}
+
+button{
+    color: #ffffff;
+    text-align: center;
+    background-color: hotpink;
+    margin:auto;
+    width: 100px;
+    height: 30px;
+}
+
+form{
+    text-align: center;
+}
+
+.video iframe{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+.question{
+    text-align: center;
+}
